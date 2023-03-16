@@ -1,0 +1,67 @@
+.auth-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(216, 213, 213);
+    .myprofile{
+        height: 90vh;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 80vw;
+        color: white;
+        background-image: url("https://images.pexels.com/photos/5011647/pexels-photo-5011647.jpeg?auto=compress&cs=tinysrgb&w=600");
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+     
+        
+
+    }
+    .login-signup{
+        color: black;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        // align-items: center;
+        background-color: white;
+        gap: 100px;
+        .img{
+            height: 300px;
+            width: 300px;
+          }
+
+        .register{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            line-height: 35px;
+            input{
+                width: 300px;
+                height: 30px;
+                padding-left: 10px;
+            }
+            button{
+                width: 100px;
+                height: 30px;
+                background-color: rgb(117, 47, 137);
+                border: none;
+                border-radius: 5px;
+            }
+         
+        }
+        
+    }
+}
